@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed';
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: auto;
+  width: 100%;
+  padding: 40px 100px;
+  margin: 0 auto;
+}
+
+header{
+  height: 70px;
+  background-color: #FFD700;
+}
+
+
+
+.header-left{
+  float:left;
+  margin-left: 25px;
+  margin-top: -40px;
+}
+
+.header-logo h1{
+  font-weight:200;
+  font-size: 55px;
+}
+
+.header-right{
+  float: right;
+  margin-right: 210px;
+  margin-top: 8px;
+}
+
+.header-right li{
+  float: left;
+  margin:0 60px;
+  list-style: none;
+}
+
+.header-right a {
+  color:#fff;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.top-wrapper{
+  background-image: url(image/aboutYouth1.png);
+  background-size: cover;
+  height: 550px;
+}
+
+.top-text{
+  background-color: #B4532A;
+  float: left;
+  margin-top: 380px;
+  margin-left: 80px;
+  padding: 5px 20px;
+}
+
+.top-text h1{
+  font-size: 40px;
+  color: #fff;
+}
+
+.heading{
+  text-align: center;
+  margin:15px 400px;
+}
+
+.heading h1{
+  font-size: 50px;
+  letter-spacing: 5px;
+  border-bottom:2px solid #B4532A;
+}
+
+.concepts{
+  background-color: #FFD700;
+}
+
+.concept-image{
+  
+  height: 480px;
+}
+
+.concept-message{
+  float:left;
+  width: 45%;
+}
+
+.concept-message h1{
+  font-size: 80px;
+  letter-spacing: 20px;
+  font-family: serif;
+  margin: 20px 20px;
+  text-decoration: 2px underline;
+}
+
+.concept-message-color{
+  color: #B4532A;
+}
+
+.concept-img{
+  float:left;
+  width:55%;
+}
+
+.concept-img img{
+  height: 450px;
+}
+
+.concept-text{
+  text-align:center;
+  margin:0 100px;
+}
+
+.concept-text p{
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+.concept-last-message{
+  text-align:center;
+  letter-spacing: 5px;
+}
+
+.concept-last-message h2{
+  font-size: 30px;
+}
+
+.two-visions{
+  padding: 0 40px;
+  height: 150px;
+}
+
+.vision-cia{
+  float:left;
+  width: 30%;
+  background-color: #FFFBE5;
+  height: 150px;
+  margin-left: 150px;
+}
+
+.vision-cia h2{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.vision-life{
+  float:right;
+  width: 30%;
+  background-color: #FFFBE5;
+  height: 150px;
+  margin-right: 150px;
+}
+
+.vision-life h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.sov-list{
+  margin-left: 170px;
+  padding-bottom: 30px;
+}
+
+.sov-list li{
+  font-size: 40px;
+  letter-spacing: 5px;
+  list-style: none;
+}
+
+.projects{
+  background-color: #FFFBE5;
+  padding-bottom: 50px;
+}
+
+.BY-top{
+  height: 400px;
+}
+
+.BY-top-image{
+  float:left;
+  width: 45%;
+  text-align: center;
+}
+
+.BY-top-image img{
+  height: 400px;
+}
+
+.BY-top-right{
+  float:left;
+  width:55%;
+}
+
+.BY-name{
+  margin-top: -60px;
+  height: 200px;
+}
+
+.BY-name h2{
+  font-size: 90px;
+  font-family: "Yu Mincho";
+  letter-spacing: 20px;
+}
+
+.BY-text{
+  height: 100px;
+  margin-top: 120px;
+}
+
+.BY-text p{
+  font-size: 20px;
+}
+
+.projects-concept h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.projects-concept p{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.projects-flow h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.flow-top{
+  background-color: #FFD700;
+  height: 250px;
+  width: 1300px;
+  margin: auto;
+}
+
+.flow1-text{
+  float:left;
+  width: 180px;
+  margin:10px 20px;
+}
+
+.flow1-image{
+  float:left;
+  height: 200px;
+}
+
+.flow1-image img{
+  height: 160px;
+  margin:50px 0; 
+}
+
+.flow2{
+  float:left;
+  width: 180px;
+  margin: 10px 120px;
+}
+
+.arrow1{
+  position: relative;
+  top:50px;
+  left:50px;
+}
+
+.flow3-text{
+  float:left;
+  width: 180px;
+  margin:10px 20px;
+}
+
+.flow3-image{
+  float:left;
+  width: 200px;
+}
+
+.flow3-image img{
+  height: 200px;
+  margin-top: -80px;
+}
+
+.flow-bottom{
+  background-color: #B4532A;
+  height: 250px;
+  width: 1300px;
+  margin:15px auto 0 auto;
+  color: #fff;
+}
+
+.flow6-image{
+  float:left;
+  width: 200px;
+}
+
+.flow6-image img{
+  height: 200px;
+  margin:20px
+}
+
+.flow6-text{
+  float:left;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.flow5{
+  float:left;
+  width: 200px;
+  margin: 10px 130px;
+}
+
+.flow4-image{
+  float:left;
+  width: 200px;
+}
+
+.flow4-image img{
+  height: 180px;
+  margin-top: 50px;
+}
+
+.flow4-text{
+  float:left;
+  width: 180px;
+  margin:50px 20px 0 60px;
+}
+
+.flow-bottom{
+  background-color: #B4532A;
+}
+
+.arrow img{
+  height: 100px;
+}
+
+.arrow1{
+  height: 100px;
+  position: relative;
+  top:60px;
+  left:-620px;
+}
+
+.arrow2{
+  height: 100px;
+  position: relative;
+  top:60px;
+  left:-400px;
+}
+
+.arrow3{
+  height: 100px;
+  position: relative;
+  top:-250px;
+  left:;
+}
+
+.arrow4{
+  height: 100px;
+  position: relative;
+  top:-120px;
+  left:-450px;
+}
+
+.arrow5{
+  height: 100px;
+  position: relative;
+  top:-220px;
+  left:400px;
+}
